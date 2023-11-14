@@ -1,2 +1,5 @@
 # wsl-clash-bash
 在wsl2环境下使用cfw的proxies
+source .proxy文件即可正常使用cfw代理，注意cfw要开启Allow LAN。
+
+因为国内无法连接HuggingFace，导致模型数据集不能直接通过hf_downlaod下载，只能通过手动把模型数据集下载到本地再使用，这造成了不必要的麻烦以及管理的混乱，于是查找了一下wsl2下使用clash代理的方法，这个仓库记录一下。
